@@ -27,10 +27,12 @@ class MainActivity : ComponentActivity() {
                         Spacer(Modifier.height(16.dp))
                         Row(Modifier.horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                             Button(onClick = { screen = 0 }) { Text("2. Network") }
+                            Button(onClick = { screen = 1 }) { Text("3. Camera") }
                         }
                         Spacer(Modifier.height(16.dp))
                         when (screen) {
                             0 -> NetworkScreen()
+                            1 -> CameraScreen()
                         }
                     }
                 }
