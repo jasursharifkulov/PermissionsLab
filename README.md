@@ -50,6 +50,10 @@ On API 37, the student selected Precise and Only this time. The screen showed `p
 
 The RequestMultiplePermissions callback reads Map<String, Boolean>. Fine access takes precedence; otherwise coarse gives `approximate`, and neither gives `none`. The “Last request result” text is historical; the large status label is the current permission state. The app does not collect coordinates. Approximate-only selection still needs a separate screenshot/test.
 
+## Part A — Theory
+
+[Part-A-Answers.md](Part-A-Answers.md) contains English answers to all 19 questions, including tables and corrected Compose examples. Sources and lecture-specific limitations are identified in the file.
+
 ## Evidence and remaining submission items
 
 Included actual screenshots:
@@ -67,7 +71,7 @@ Still add before final submission:
 - Kotlin Playground code/output screenshot if required by the instructor.
 - Approximate-only location test/evidence.
 - Actual missing-INTERNET test result after restoring the declaration.
-- Part A: 19 written answers, reviewed in the student's own words. Explanations were discussed in chat but are not yet a submission file.
+- Review the 19 English Part A answers in `Part-A-Answers.md` and adapt them into your own words. Lecture slides were unavailable; lecture-specific wording is identified as reconstructed.
 
 Tasks 1–5 are implemented. Bonus Task 6 (notifications) is not implemented. No API 32/API 34 comparison is claimed. Git history is organized by task, with documentation/evidence in a separate commit.
 
