@@ -1,0 +1,16 @@
+1. deny
+dialog shown, denied
+granted=false, rationale=true, dialogShows=true
+
+2. deny again
+dialog shown, denied
+granted=false, rationale=false, dialogShows=true
+
+3. request after two denials
+no dialog, denied immediately
+granted=false, rationale=false, dialogShows=false
+
+4. try to allow after two denials
+no dialog, denied immediately
+granted=false, rationale=false, dialogShows=false
+
