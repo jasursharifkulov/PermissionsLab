@@ -29,12 +29,14 @@ class MainActivity : ComponentActivity() {
                             Button(onClick = { screen = 0 }) { Text("2. Network") }
                             Button(onClick = { screen = 1 }) { Text("3. Camera") }
                             Button(onClick = { screen = 2 }) { Text("4. Overlay") }
+                            Button(onClick = { screen = 3 }) { Text("5. Location") }
                         }
                         Spacer(Modifier.height(16.dp))
                         when (screen) {
                             0 -> NetworkScreen()
                             1 -> CameraScreen()
                             2 -> OverlayScreen()
+                            3 -> LocationScreen()
                         }
                     }
                 }
